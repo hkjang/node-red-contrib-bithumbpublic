@@ -1,0 +1,14 @@
+{
+  "bithumbpublic" : {
+    "label" : {
+      "api": "API",
+      "order_currency": "주문 통화",
+      "payment_currency": "결제 통화"
+    },
+    "desc" : {
+      "api": "ticker or orderbook or transaction_history or assetsstatus or btci",
+      "order_currency": "주문 통화(코인), ALL(전체), 기본값 : BTC",
+      "payment_currency": "결제 통화(마켓), 입력값 : KRW 혹은 BTC"
+    }
+  }
+}

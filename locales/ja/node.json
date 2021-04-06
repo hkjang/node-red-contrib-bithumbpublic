@@ -1,0 +1,14 @@
+{
+  "bithumbpublic" : {
+    "label" : {
+      "api": "API",
+      "order_currency": "注文通貨",
+      "payment_currency": "決済通貨"
+    },
+    "desc" : {
+      "api": "ticker or orderbook or transaction_history or assetsstatus or btci",
+      "order_currency": "注文通貨（コイン）、ALL、（全体）、デフォルト：BTC",
+      "payment_currency": "決済通貨（マーケット）は、入力値：KRWもしくはBTC"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+<script type="text/html" data-template-name="bithumbpublic">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> <span
+                data-i18n="node-red:common.label.name"></span></label>
+        <input type="text" id="node-input-name" data-i18n="[placeholder]node-red:common.label.name">
+    </div>
+    <div class="form-row"><label for="node-input-api"><i class="fa"></i> <span
+            data-i18n="bithumbpublic.label.api"></span></label> <input type="text"
+                                                                                  id="node-input-api"
+                                                                                  data-i18n="[placeholder]bithumbpublic.desc.api">
+    </div>
+    <div class="form-row"><label for="node-input-order_currency"><i class="fa"></i> <span
+            data-i18n="bithumbpublic.label.order_currency"></span></label> <input type="text"
+                                                                                                   id="node-input-order_currency"
+                                                                                  data-i18n="[placeholder]bithumbpublic.desc.order_currency">
+    </div>
+    <div class="form-row"><label for="node-input-payment_currency"><i class="fa"></i> <span
+            data-i18n="bithumbpublic.label.payment_currency"></span></label> <input type="text"
+                                                                                                   id="node-input-payment_currency"
+                                                                                    data-i18n="[placeholder]bithumbpublic.desc.payment_currency">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="bithumbpublic">
+    <p>Summary of the node.</p>
+    <h3>Inputs</h3>
+    <dl class="message-properties">
+        <dt>payload<span class="property-type">object</span></dt>
+        <dd>Explanation of payload.</dd>
+        <dt class="optional">topic <span class="property-type">string</span></dt>
+        <dd>Explanation of topic.</dd>
+    </dl>
+    <h3>Outputs</h3>
+    <dl class="message-properties">
+        <dt>payload<span class="property-type">object</span></dt>
+        <dd>Explanation of payload.</dd>
+        <dt class="optional">topic<span class="property-type">string</span></dt>
+        <dd>Explanation of topic.</dd>
+    </dl>
+    <h3>Details</h3>
+    <p>Explanation of the details.</p>
+    <p><b>Note</b>: Note of the node.</p>
+</script>
+
+<script type="text/javascript">
+    RED.nodes.registerType('bithumbpublic', {
+        color: '#ffffff',
+        category: 'function',
+        defaults: {
+            name: {value: ""},
+            api: {value: "", required: false},
+            order_currency: {value: "", required: false},
+            payment_currency: {value: "", required: false},
+        },
+        inputs: 1,
+        outputs: 1,
+        label: function () {
+            return this.name || 'Bithumb Public API';
+        },
+        icon: 'icon.png',
+        align: 'left'
+    });
+</script>
+
+
