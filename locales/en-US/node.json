@@ -6,7 +6,7 @@
       "payment_currency": "Payment currency"
     },
     "desc" : {
-      "api": "ticker or orderbook or transaction_history or assetsstatus or btci",
+      "api": "ticker or orderbook or transaction_history or assetsstatus or btci or candlestick",
       "order_currency": "Order currency (coin), ALL (all), default: BTC",
       "payment_currency": "Payment currency (market), input value: KRW or BTC"
     }
