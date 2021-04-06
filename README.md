@@ -13,7 +13,7 @@ command in your Node-RED user directory, typically `~/.node-red`
 
     npm install node-red-contrib-bithumbpublic
 
-## Wrapper bithumbpublic.com API  
+## Wrapper bithumb public API  
 - https://apidocs.bithumb.com/docs/ticker
 
 ## Sample parameters
